@@ -12,6 +12,6 @@ public class Cube_View : MonoBehaviour {
 		if (vec.x < 0 || vec.x > 5) {
 			speed *= -1;
 		}
-		transform.position += new Vector3 (speed, 0, 0);
+		transform.position += new Vector3 (speed, speed, 0);
 	}
 }
